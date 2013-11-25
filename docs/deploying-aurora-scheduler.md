@@ -11,10 +11,10 @@ Creating the Distribution .zip File (Optional)
 ----------------------------------------------
 To create a distribution for installation.
 
-    git clone http://git-wip-us.apache.org/repos/asf/incubator-aurora.git
+    git clone https://github.com/twitter/aurora.git
     ./gradlew distZip
 
-Copy the generated `build/distribution/aurora-scheduler.zip` to each node that will run a scheduler.
+Copy the generated `dist/distributions/aurora-scheduler.zip` to each node that will run a scheduler.
 
 Installing Aurora
 -----------------
